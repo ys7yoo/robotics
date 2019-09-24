@@ -7,7 +7,7 @@ sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main
 curl -sSL 'http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xC1CF6E31E6BADE8868B172B4F42ED6FBAB17C654' | sudo apt-key add -
 ```
 
-* Build from sorce
+* Build from sorce for Raspberry Pi
 
 ```
 sudo apt-get install python-rosdep python-rosinstall-generator python-wstool python-rosinstall build-essential
