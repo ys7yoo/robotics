@@ -21,7 +21,7 @@ cd ~/ros_catkin_ws
 
 ```
 rosinstall_generator desktop --rosdistro melodic --deps --tar > melodic-desktop.rosinstall
-$ wstool init -j8 src melodic-desktop.rosinstall
+wstool init -j8 src melodic-desktop.rosinstall
 ```
 
 ```
