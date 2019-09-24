@@ -25,5 +25,9 @@ wstool init -j8 src melodic-desktop.rosinstall
 ```
 
 ```
+rosdep install --from-paths src --ignore-src --rosdistro melodic -y
+```
+
+```
 ./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release
 ```
